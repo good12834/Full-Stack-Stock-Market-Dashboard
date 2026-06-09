@@ -1,0 +1,192 @@
+{
+  "app": {
+    "title": "StockDash",
+    "tagline": "Datos de mercado en tiempo real y seguimiento de cartera"
+  },
+  "nav": {
+    "dashboard": "Panel",
+    "portfolio": "Cartera",
+    "crypto": "Criptomonedas",
+    "compare": "Comparar acciones",
+    "learn": "Aprende finanzas",
+    "alerts": "Alertas de precio",
+    "news": "Noticias del mercado",
+    "admin": "Analítica de administración"
+  },
+  "search": {
+    "placeholder": "Buscar acciones...",
+    "voice": "Búsqueda por voz",
+    "listening": "Escuchando..."
+  },
+  "home": {
+    "title": "Panel del mercado de valores",
+    "loading": "Cargando datos del mercado...",
+    "refresh": "Actualizar",
+    "connectionIssue": "Problema de conexión",
+    "retrying": "Reintentando... (intento {{count}} de {{max}})",
+    "unableToLoad": "No se pudieron cargar los datos",
+    "checkConnection": "Por favor verifica tu conexión e intenta de nuevo",
+    "retry": "Reintentar"
+  },
+  "ai": {
+    "title": "Asistente de trading IA",
+    "placeholder": "Pregunta sobre una acción (ej: 'Analizar AAPL')...",
+    "send": "Enviar",
+    "analyzing": "Analizando...",
+    "error": "Lo siento, no pude analizar esa acción. Intenta de nuevo.",
+    "greeting": "¡Hola! Soy tu asistente de trading IA. Pregúntame sobre cualquier símbolo de acción para análisis, noticias o datos financieros.",
+    "suggestions": "Intenta preguntar:",
+    "suggestion1": "Analizar AAPL",
+    "suggestion2": "Noticias para MSFT",
+    "suggestion3": "Comparar AAPL y GOOGL",
+    "suggestion4": "Datos financieros para TSLA"
+  },
+  "crypto": {
+    "title": "Criptomonedas",
+    "subtitle": "Precios y datos de criptomonedas en tiempo real",
+    "price": "Precio",
+    "change": "Cambio 24h",
+    "marketCap": "Cap. de mercado",
+    "volume": "Volumen 24h",
+    "search": "Buscar cripto..."
+  },
+  "compare": {
+    "title": "Comparación de acciones",
+    "subtitle": "Compara acciones lado a lado",
+    "addStock": "Añadir acción para comparar",
+    "searchPlaceholder": "Buscar y seleccionar acciones...",
+    "metric": "Métrica",
+    "price": "Precio",
+    "change": "Cambio ($)",
+    "changePercent": "Cambio (%)",
+    "marketCap": "Cap. de mercado",
+    "peRatio": "Ratio P/E",
+    "volume": "Volumen",
+    "dayHigh": "Máx. del día",
+    "dayLow": "Mín. del día",
+    "dividend": "Rendimiento dividendo",
+    "noData": "No hay datos disponibles",
+    "selectPrompt": "Selecciona acciones arriba para comparar",
+    "fetchError": "Datos no disponibles",
+    "bestValue": "Mejor valor",
+    "added": "Añadido"
+  },
+  "learn": {
+    "title": "Centro de aprendizaje financiero",
+    "subtitle": "Domina los mercados con nuestros recursos educativos",
+    "categories": "Categorías",
+    "basics": "Fundamentos",
+    "technical": "Análisis técnico",
+    "fundamental": "Análisis fundamental",
+    "risk": "Gestión de riesgos",
+    "advanced": "Temas avanzados",
+    "readingTime": "{{min}} min de lectura",
+    "startLearning": "Empezar a aprender"
+  },
+  "alerts": {
+    "title": "Alertas de precio",
+    "subtitle": "Configura alertas por correo para movimientos de precios",
+    "stockSymbol": "Símbolo de la acción",
+    "condition": "Condición",
+    "above": "Superior a",
+    "below": "Inferior a",
+    "targetPrice": "Precio objetivo",
+    "email": "Dirección de correo",
+    "setAlert": "Configurar alerta",
+    "success": "¡Alerta configurada con éxito!",
+    "error": "Error al configurar la alerta. Intenta de nuevo.",
+    "yourAlerts": "Tus alertas activas",
+    "noAlerts": "No hay alertas activas",
+    "delete": "Eliminar"
+  },
+  "auth": {
+    "signIn": "Iniciar sesión",
+    "signUp": "Registrarse",
+    "signOut": "Cerrar sesión",
+    "email": "Correo",
+    "password": "Contraseña",
+    "username": "Nombre de usuario"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Ocurrió un error",
+    "offline": "Desconectado",
+    "live": "En vivo",
+    "marketClosed": "Mercado cerrado",
+    "marketOpen": "Mercado abierto",
+    "refresh": "Actualizar",
+    "remove": "Eliminar"
+  },
+  "news": {
+    "title": "Noticias del mercado",
+    "subtitle": "Noticias financieras en tiempo real de los mercados globales",
+    "search": "Buscar noticias…",
+    "featured": "Destacado",
+    "noResults": "No hay artículos que coincidan con tu búsqueda.",
+    "usingFallback": "Mostrando titulares seleccionados. Configura FINNHUB_API_KEY en el servidor para activar noticias en vivo.",
+    "bookmark": "Guardar",
+    "unbookmark": "Quitar marcador",
+    "share": "Compartir",
+    "open": "Abrir artículo",
+    "readMore": "Leer",
+    "bullish": "Alcista",
+    "bearish": "Bajista",
+    "neutral": "Neutral",
+    "unknownSource": "Noticias",
+    "categories": {
+      "general": "General",
+      "forex": "Divisas",
+      "crypto": "Cripto",
+      "merger": "Fusiones y adquisiciones"
+    }
+  },
+  "admin": {
+    "title": "Analítica de administración",
+    "subtitle": "Uso de la plataforma, salud del sistema y resumen del mercado",
+    "refresh": "Actualizar",
+    "footer": "Los datos se actualizan automáticamente cada 30 segundos.",
+    "ofMovers": "de los movimientos",
+    "kpi": {
+      "symbols": "Símbolos seguidos",
+      "advancers": "En alza",
+      "decliners": "En baja",
+      "avgChange": "Cambio medio %",
+      "users": "Usuarios",
+      "portfolios": "Carteras",
+      "watchlists": "Listas de seguimiento",
+      "alerts": "Alertas de precio"
+    },
+    "requests": {
+      "title": "Volumen de solicitudes",
+      "subtitle": "Número de solicitudes por minuto en la ventana seleccionada",
+      "label": "Solicitudes / min",
+      "total": "Total de solicitudes",
+      "peak": "Pico"
+    },
+    "sectors": {
+      "title": "Símbolos por sector",
+      "subtitle": "Distribución de los tickers seguidos",
+      "empty": "Sin datos de sector"
+    },
+    "movers": {
+      "gainers": "Mayores subidas",
+      "losers": "Mayores caídas",
+      "empty": "Sin datos"
+    },
+    "system": {
+      "title": "Salud del sistema",
+      "database": "Base de datos",
+      "cache": "Caché",
+      "memory": "Memoria heap",
+      "uptime": "Tiempo activo",
+      "platform": "Plataforma"
+    }
+  },
+  "language": {
+    "en": "English",
+    "he": "עברית",
+    "ar": "العربية",
+    "fr": "Français",
+    "es": "Español"
+  }
+}

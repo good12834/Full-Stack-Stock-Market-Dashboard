@@ -1,0 +1,192 @@
+{
+  "app": {
+    "title": "StockDash",
+    "tagline": "נתוני שוק בזמן אמת ומעקב תיק השקעות"
+  },
+  "nav": {
+    "dashboard": "לוח בקרה",
+    "portfolio": "תיק השקעות",
+    "crypto": "מטבעות דיגיטליים",
+    "compare": "השוואת מניות",
+    "learn": "ללמוד פיננסים",
+    "alerts": "התראות מחיר",
+    "news": "חדשות השוק",
+    "admin": "ניתוח ניהולי"
+  },
+  "search": {
+    "placeholder": "חיפוש מניות...",
+    "voice": "חיפוש קולי",
+    "listening": "מאזין..."
+  },
+  "home": {
+    "title": "לוח מחוונים לשוק המניות",
+    "loading": "טוען נתוני שוק...",
+    "refresh": "רענן",
+    "connectionIssue": "בעיית חיבור",
+    "retrying": "מנסה שוב... (ניסיון {{count}} מתוך {{max}})",
+    "unableToLoad": "לא ניתן לטעון נתונים",
+    "checkConnection": "אנא בדוק את החיבור ונסה שוב",
+    "retry": "נסה שוב"
+  },
+  "ai": {
+    "title": "עוזר מסחר חכם",
+    "placeholder": "שאל על מניה (לדוגמה, 'נתח AAPL')...",
+    "send": "שלח",
+    "analyzing": "מנתח...",
+    "error": "מצטער, לא הצלחתי לנתח את המניה הזו. אנא נסה שוב.",
+    "greeting": "שלום! אני עוזר המסחר החכם שלך. שאל אותי על כל סמל מניה לניתוח, חדשות או נתונים פיננסיים.",
+    "suggestions": "נסה לשאול:",
+    "suggestion1": "נתח AAPL",
+    "suggestion2": "חדשות על MSFT",
+    "suggestion3": "השווה AAPL ו-GOOGL",
+    "suggestion4": "נתונים פיננסיים ל-TSLA"
+  },
+  "crypto": {
+    "title": "מטבעות דיגיטליים",
+    "subtitle": "מחירי מטבעות דיגיטליים ונתונים בזמן אמת",
+    "price": "מחיר",
+    "change": "שינוי 24 שעות",
+    "marketCap": "שווי שוק",
+    "volume": "נפח מסחר 24 שעות",
+    "search": "חיפוש קריפטו..."
+  },
+  "compare": {
+    "title": "השוואת מניות",
+    "subtitle": "השוואת מניות זו לצד זו",
+    "addStock": "הוסף מניה להשוואה",
+    "searchPlaceholder": "חפש ובחר מניות...",
+    "metric": "מדד",
+    "price": "מחיר",
+    "change": "שינוי ($)",
+    "changePercent": "שינוי (%)",
+    "marketCap": "שווי שוק",
+    "peRatio": "יחס P/E",
+    "volume": "נפח מסחר",
+    "dayHigh": "גבוה יומי",
+    "dayLow": "נמוך יומי",
+    "dividend": "תשואת דיבידנד",
+    "noData": "אין נתונים זמינים",
+    "selectPrompt": "בחר מניות למעלה להשוואה",
+    "fetchError": "הנתונים לא זמינים",
+    "bestValue": "הערך הטוב ביותר",
+    "added": "נוסף"
+  },
+  "learn": {
+    "title": "מרכז למידה פיננסית",
+    "subtitle": "שלוט בשווקים עם המשאבים החינוכיים שלנו",
+    "categories": "קטגוריות",
+    "basics": "יסודות",
+    "technical": "ניתוח טכני",
+    "fundamental": "ניתוח פונדמנטלי",
+    "risk": "ניהול סיכונים",
+    "advanced": "נושאים מתקדמים",
+    "readingTime": "{{min}} דקות קריאה",
+    "startLearning": "התחל ללמוד"
+  },
+  "alerts": {
+    "title": "התראות מחיר",
+    "subtitle": "הגדר התראות אימייל לתנועות מחיר מניות",
+    "stockSymbol": "סמל מניה",
+    "condition": "תנאי",
+    "above": "מעל",
+    "below": "מתחת",
+    "targetPrice": "מחיר יעד",
+    "email": "כתובת אימייל",
+    "setAlert": "הגדר התראה",
+    "success": "ההתראה הוגדרה בהצלחה!",
+    "error": "נכשל בהגדרת ההתראה. אנא נסה שוב.",
+    "yourAlerts": "ההתראות הפעילות שלך",
+    "noAlerts": "אין התראות פעילות",
+    "delete": "מחק"
+  },
+  "auth": {
+    "signIn": "התחבר",
+    "signUp": "הרשם",
+    "signOut": "התנתק",
+    "email": "אימייל",
+    "password": "סיסמה",
+    "username": "שם משתמש"
+  },
+  "common": {
+    "loading": "טוען...",
+    "error": "אירעה שגיאה",
+    "offline": "לא מקוון",
+    "live": "חי",
+    "marketClosed": "השוק סגור",
+    "marketOpen": "השוק פתוח",
+    "refresh": "רענן",
+    "remove": "הסר"
+  },
+  "news": {
+    "title": "חדשות השוק",
+    "subtitle": "חדשות פיננסיות בזמן אמת מהשווקים העולמיים",
+    "search": "חיפוש חדשות…",
+    "featured": "מומלץ",
+    "noResults": "לא נמצאו כתבות התואמות לחיפוש שלך.",
+    "usingFallback": "מציג כותרות נבחרות. הגדר FINNHUB_API_KEY בשרת כדי לאפשר חדשות בזמן אמת.",
+    "bookmark": "שמור",
+    "unbookmark": "הסר מהמועדפים",
+    "share": "שתף",
+    "open": "פתח כתבה",
+    "readMore": "קרא",
+    "bullish": "עולה",
+    "bearish": "יורד",
+    "neutral": "ניטרלי",
+    "unknownSource": "חדשות",
+    "categories": {
+      "general": "כללי",
+      "forex": "מטבעות חוץ",
+      "crypto": "קריפטו",
+      "merger": "מיזוגים ורכישות"
+    }
+  },
+  "admin": {
+    "title": "ניתוח ניהולי",
+    "subtitle": "שימוש בפלטפורמה, תקינות המערכת וסקירת שוק",
+    "refresh": "רענן",
+    "footer": "הנתונים מתרעננים אוטומטית כל 30 שניות.",
+    "ofMovers": "מהתנודות",
+    "kpi": {
+      "symbols": "סמלים במעקב",
+      "advancers": "עולים",
+      "decliners": "יורדים",
+      "avgChange": "שינוי ממוצע %",
+      "users": "משתמשים",
+      "portfolios": "תיקי השקעות",
+      "watchlists": "רשימות מעקב",
+      "alerts": "התראות מחיר"
+    },
+    "requests": {
+      "title": "נפח בקשות",
+      "subtitle": "מספר בקשות לדקה בחלון הנבחר",
+      "label": "בקשות/דקה",
+      "total": "סך הבקשות בחלון",
+      "peak": "שיא"
+    },
+    "sectors": {
+      "title": "סמלים לפי סקטור",
+      "subtitle": "התפלגות הסמלים במעקב",
+      "empty": "אין נתוני סקטור זמינים"
+    },
+    "movers": {
+      "gainers": "העולים המובילים",
+      "losers": "היורדים המובילים",
+      "empty": "אין נתונים"
+    },
+    "system": {
+      "title": "תקינות המערכת",
+      "database": "מסד נתונים",
+      "cache": "מטמון",
+      "memory": "זיכרון Heap",
+      "uptime": "זמן פעילות",
+      "platform": "פלטפורמה"
+    }
+  },
+  "language": {
+    "en": "English",
+    "he": "עברית",
+    "ar": "العربية",
+    "fr": "Français",
+    "es": "Español"
+  }
+}

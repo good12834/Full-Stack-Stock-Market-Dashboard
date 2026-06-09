@@ -1,0 +1,236 @@
+{
+  "app": {
+    "title": "StockDash",
+    "tagline": "Real-time market data and portfolio tracking"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "portfolio": "Portfolio",
+    "crypto": "Cryptocurrency",
+    "compare": "Compare Stocks",
+    "learn": "Learn Finance",
+    "alerts": "Price Alerts",
+    "news": "Market News",
+    "admin": "Admin Analytics"
+  },
+  "search": {
+    "placeholder": "Search stocks...",
+    "voice": "Voice search",
+    "listening": "Listening..."
+  },
+  "home": {
+    "title": "Stock Market Dashboard",
+    "loading": "Loading market data...",
+    "refresh": "Refresh",
+    "connectionIssue": "Connection issue",
+    "retrying": "Retrying... (attempt {{count}} of {{max}})",
+    "unableToLoad": "Unable to load data",
+    "checkConnection": "Please check your connection and try again",
+    "retry": "Retry"
+  },
+  "ai": {
+    "title": "AI Trading Assistant",
+    "placeholder": "Ask about a stock (e.g., 'Analyze AAPL')...",
+    "send": "Send",
+    "analyzing": "Analyzing...",
+    "error": "Sorry, I couldn't analyze that stock. Please try again.",
+    "greeting": "Hello! I'm your AI trading assistant. Ask me about any stock symbol for analysis, news, or financial data.",
+    "suggestions": "Try asking:",
+    "suggestion1": "Analyze AAPL",
+    "suggestion2": "News for MSFT",
+    "suggestion3": "Compare AAPL and GOOGL",
+    "suggestion4": "Financials for TSLA"
+  },
+  "crypto": {
+    "title": "Cryptocurrency",
+    "subtitle": "Real-time cryptocurrency prices and data",
+    "price": "Price",
+    "change": "24h Change",
+    "marketCap": "Market Cap",
+    "volume": "24h Volume",
+    "search": "Search crypto..."
+  },
+  "compare": {
+    "title": "Stock Comparison",
+    "subtitle": "Compare stocks side by side",
+    "addStock": "Add Stock to Compare",
+    "searchPlaceholder": "Search and select stocks...",
+    "metric": "Metric",
+    "price": "Price",
+    "change": "Change ($)",
+    "changePercent": "Change (%)",
+    "marketCap": "Market Cap",
+    "peRatio": "P/E Ratio",
+    "volume": "Volume",
+    "dayHigh": "Day High",
+    "dayLow": "Day Low",
+    "dividend": "Dividend Yield",
+    "noData": "No data available",
+    "selectPrompt": "Select stocks above to compare",
+    "fetchError": "Data unavailable",
+    "bestValue": "Best value",
+    "added": "Added"
+  },
+  "learn": {
+    "title": "Financial Learning Center",
+    "subtitle": "Master the markets with our educational resources",
+    "categories": "Categories",
+    "basics": "Basics",
+    "technical": "Technical Analysis",
+    "fundamental": "Fundamental Analysis",
+    "risk": "Risk Management",
+    "advanced": "Advanced Topics",
+    "readingTime": "{{min}} min read",
+    "startLearning": "Start Learning"
+  },
+  "alerts": {
+    "title": "Price Alerts",
+    "subtitle": "Monitor the markets, never miss a move",
+    "stockSymbol": "Asset Symbol",
+    "condition": "Condition",
+    "above": "Price Above",
+    "below": "Price Below",
+    "targetPrice": "Target Price",
+    "email": "Email Address",
+    "setAlert": "Create Alert",
+    "success": "Alert created successfully!",
+    "error": "Failed to create alert. Please try again.",
+    "yourAlerts": "Your Alerts",
+    "noAlerts": "No alerts yet",
+    "delete": "Delete",
+    "active": "Active",
+    "paused": "Paused",
+    "triggered": "Triggered",
+    "history": "Alert History",
+    "smartAlerts": "AI Smart Alerts",
+    "analytics": "Alert Analytics",
+    "create": "Create Alert",
+    "pause": "Pause",
+    "resume": "Resume",
+    "total": "Total Alerts",
+    "activeNow": "Active Now",
+    "triggeredToday": "Triggered Today",
+    "successRate": "Success Rate",
+    "mostWatched": "Most Watched",
+    "noHistory": "No triggered alerts yet",
+    "refresh": "Refresh",
+    "newAlert": "New Alert",
+    "selectAsset": "Select Asset",
+    "selectCondition": "Condition",
+    "notificationMethod": "Notification Method",
+    "alertFrequency": "Alert Frequency",
+    "alertSummary": "Alert Summary",
+    "conditions": {
+      "above": "Price Above",
+      "below": "Price Below",
+      "percent_change": "Percentage Change",
+      "volume_spike": "Volume Spike",
+      "rsi": "RSI Alert"
+    },
+    "notifications": {
+      "email": "Email",
+      "push": "Push",
+      "sms": "SMS",
+      "browser": "Browser",
+      "telegram": "Telegram"
+    },
+    "frequencies": {
+      "once": "Once",
+      "every_minute": "Every Minute",
+      "every_5_minutes": "Every 5 Minutes",
+      "every_15_minutes": "Every 15 Minutes",
+      "every_hour": "Every Hour",
+      "daily": "Daily"
+    }
+  },
+  "auth": {
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "signOut": "Sign Out",
+    "email": "Email",
+    "password": "Password",
+    "username": "Username"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "offline": "Offline",
+    "live": "Live",
+    "marketClosed": "Market Closed",
+    "marketOpen": "Market Open",
+    "refresh": "Refresh",
+    "remove": "Remove"
+  },
+  "news": {
+    "title": "Market News",
+    "subtitle": "Real-time financial news from global markets",
+    "search": "Search news…",
+    "featured": "Featured",
+    "noResults": "No articles match your search.",
+    "usingFallback": "Showing curated headlines. Configure FINNHUB_API_KEY on the server to enable live market news.",
+    "bookmark": "Bookmark",
+    "unbookmark": "Remove bookmark",
+    "share": "Share",
+    "open": "Open article",
+    "readMore": "Read",
+    "bullish": "Bullish",
+    "bearish": "Bearish",
+    "neutral": "Neutral",
+    "unknownSource": "News",
+    "categories": {
+      "general": "General",
+      "forex": "Forex",
+      "crypto": "Crypto",
+      "merger": "M&A"
+    }
+  },
+  "admin": {
+    "title": "Admin Analytics",
+    "subtitle": "Platform usage, system health, and market overview",
+    "refresh": "Refresh",
+    "footer": "Data refreshes automatically every 30 seconds.",
+    "ofMovers": "of movers",
+    "kpi": {
+      "symbols": "Tracked Symbols",
+      "advancers": "Advancers",
+      "decliners": "Decliners",
+      "avgChange": "Avg % Change",
+      "users": "Users",
+      "portfolios": "Portfolios",
+      "watchlists": "Watchlists",
+      "alerts": "Price Alerts"
+    },
+    "requests": {
+      "title": "Request Volume",
+      "subtitle": "Per-minute request count over the selected window",
+      "label": "Requests / min",
+      "total": "Total requests in window",
+      "peak": "Peak"
+    },
+    "sectors": {
+      "title": "Symbols by Sector",
+      "subtitle": "Distribution of tracked tickers",
+      "empty": "No sector data available"
+    },
+    "movers": {
+      "gainers": "Top Gainers",
+      "losers": "Top Losers",
+      "empty": "No data"
+    },
+    "system": {
+      "title": "System Health",
+      "database": "Database",
+      "cache": "Cache",
+      "memory": "Heap",
+      "uptime": "Uptime",
+      "platform": "Platform"
+    }
+  },
+  "language": {
+    "en": "English",
+    "he": "עברית",
+    "ar": "العربية",
+    "fr": "Français",
+    "es": "Español"
+  }
+}
